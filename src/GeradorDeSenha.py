@@ -24,8 +24,7 @@ def generate_password(n):
     
 
 janela = Tk()
-janela.title = "Gerador de Senha"
-janela.grid = ("500x500")
+janela.title("Gerador de Senha")
 
 text_orientation = Label(janela, text="How many characters do you want in your password? ")
 text_orientation.grid(row=0, column=0)
